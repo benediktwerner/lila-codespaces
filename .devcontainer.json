@@ -1,0 +1,17 @@
+{
+  "name": "Lichess",
+  "image": "ghcr.io/lichess-org/lila-gitpod:main",
+  "extensions": ["scala-scala-lang.scala"],
+  //   "portsAttributes": {
+  //     "8080": {
+  //       "label": "Application",
+  //       "onAutoForward": ""
+  //     }
+  //   },
+  "postCreateCommand": {
+    "setup": "echo setup"
+  },
+  "postStartCommand": {
+    "ui": "echo ui"
+  }
+}
